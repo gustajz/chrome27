@@ -2,7 +2,7 @@ FROM centos:6.7
 
 MAINTAINER Gustavo Jotz <gustavojotz@cwi.com.br>
 
-ARG CHROME google-chrome-stable-27.0.1453.110-202711.x86_64.rpm
+ARG CHROME=google-chrome-stable-27.0.1453.110-202711.x86_64.rpm
 
 ENV LIBGL_ALWAYS_INDIRECT=1 \
     QT_X11_NO_MITSHM=1 \
